@@ -4,7 +4,7 @@ $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
 require 'cacert/version'
 
 Gem::Specification.new do |spec|
-  spec.name          = "cacert"
+  spec.name          = "curl-cacert"
   spec.authors       = ["Justin Love"]
   spec.version       = Cacert::VERSION
   spec.email         = ["git@JustinLove.name"]
